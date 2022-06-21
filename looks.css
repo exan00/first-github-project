@@ -25,5 +25,43 @@ a:active {
   border: 2px black solid;
   margin: 10px;
   margin-right: 950px;
-  
+}
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: none;
+}
+
+.categories li {
+  padding-bottom: 8px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url("./images/check.png");
+}
+.my-form {
+  padding: 20px;
+  margin-right: 800px;
+}
+.my form .form-group {
+  padding-bottom: 15px;
+}
+.my-form label {
+  display: block;
+}
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px black solid;
+  padding: 10px;
+  box-sizing: border-box;
 }
